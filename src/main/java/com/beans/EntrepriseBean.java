@@ -1,4 +1,4 @@
-package com.beans;
+//package com.beans;
 
 import com.entities.Entreprise;
 import com.service.EntrepriseService;
@@ -10,8 +10,8 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.faces.bean.ManagedBean;
 import java.util.List;
 
-@Component
-@ManagedBean
+//@Component
+//@ManagedBean
 @Scope("session")
 public class EntrepriseBean {
 
